@@ -31,10 +31,9 @@ public class C08 extends TestBase {
 
         jse.executeScript("arguments[0].click();",otomasyonElementi);
 
-        // ekrana "JUnit bitti" yazdirin
-        sleep(2);
+        // ekrana "JUnit bitti"
 
-        jse.executeScript("alert('JUnit Bitti');");
+        jse.executeScript("alert('JUnit Bitti :)');");
         sleep(2);
     }
 }
