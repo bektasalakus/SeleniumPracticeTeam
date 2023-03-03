@@ -55,6 +55,7 @@ public class C02{
             ulke.put(key,value);
         }
         System.out.println(ulke);
+        System.out.println(ulke);
 
 
 }
